@@ -19,6 +19,6 @@ steps:
     cd angular-poc
     npm install -g @angular/cli
     npm install
-    ng build --prod
+    ng build --configuration=production
   workingDirectory: '$(Build.SourcesDirectory)'
   displayName: 'npm install and build'
